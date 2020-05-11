@@ -24,3 +24,4 @@ services:
     environment:
       - POSTGRES_USER=hive
       - POSTGRES_DB=metastore
+      - POSTGRES_HOST_AUTH_METHOD=trust
